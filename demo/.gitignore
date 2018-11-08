@@ -1,0 +1,7 @@
+.build
+.build_libsfx
+*.palette
+*.tiles
+*.lz4
+*.sym
+*.sfc
