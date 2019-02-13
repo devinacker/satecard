@@ -11,8 +11,6 @@ CardRWBuffer: .res 3
 NoError:
 .byte "No error",10,0
 
-NoAdapter: 
-.byte "SateCard adapter not detected",10,0
 CardNotReady: 
 .byte "Card not ready",10,0
 DiagFailed:
@@ -95,13 +93,6 @@ endproc
 
 ;-------------------------------------------------------------------------------
 proc CardDetect
-	; SateCard adapter grounds both IO pins
-	ldx #.loword(NoAdapter)
-	lda #$03
-	tsb SV_GPIO
-	and SV_GPIO
-	bne @fail ; fail if either or both pins aren't grounded
-	
 	; reset card
 	jsl CardReset
 	; wait for busy bit clear + ready bit set

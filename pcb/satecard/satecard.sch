@@ -247,22 +247,6 @@ Text Label 6250 2800 0    50   ~ 0
 SV_GND
 NoConn ~ 4200 3000
 NoConn ~ 4200 3100
-Wire Wire Line
-	5500 2900 5500 2950
-$Comp
-L power:GND #PWR?
-U 1 1 5BE64597
-P 5500 2950
-F 0 "#PWR?" H 5500 2700 50  0001 C CNN
-F 1 "GND" H 5505 2777 50  0000 C CNN
-F 2 "" H 5500 2950 50  0001 C CNN
-F 3 "" H 5500 2950 50  0001 C CNN
-	1    5500 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 2800 5500 2900
-Connection ~ 5500 2900
 Text Label 5250 2600 0    50   ~ 0
 LED
 Text Label 5250 2000 0    50   ~ 0
@@ -283,4 +267,6 @@ Text Label 5300 1100 0    50   ~ 0
 D1
 Text Label 5300 1000 0    50   ~ 0
 D0
+NoConn ~ 5500 2800
+NoConn ~ 5500 2900
 $EndSCHEMATC
