@@ -16,4 +16,4 @@ Since the Satellaview's internal expansion port was never officially used, no co
 
 The board was designed around a pre-made CF breakout/adapter board mainly for ease of assembly and testing, since I still consider it a "prototype". If this actually manages to turn into a serious product somehow, it may eventually be redesigned to feature a CF slot directly on the board instead.
 
-You can order the board itself [from OSHPark](https://oshpark.com/); a minimum order of 3 boards costs exactly $15.00 USD.
+You can order the board itself [from OSHPark](https://oshpark.com/shared_projects/bJ8kBS1b); a minimum order of 3 boards costs exactly $15.00 USD.
